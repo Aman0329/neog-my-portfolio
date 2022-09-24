@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.top img{
+    width: 5vw;
+    height: 5vh;
+    margin: 80% 5% 2% 110%;
+}
+.buttons{
+    display: block;
+    margin: 3% 1% 9% 70%;
+   width: 50vw;
+    
+}
+.btn{
+    padding: 0%;
+    border: 2px solid blue;
+    border-radius: 30%;
+    color: blue;
+    background-color: #fff;
+    height: 8vh;
+    width: 8vw;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn-proj{
+    margin-left: 16%;
+    border: 2px solid blue;
+    border-radius: 30%;
+    color: blue;
+    background-color: #fff;
+    height: 8vh;
+    width: 8vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.btn-proj:hover{
+    background-color: blue;
+    color: white;
+}
+
+#btn1{
+    margin-right: 18%;
+}
+.top{
+    display: flex;
+}
+.img{
+    max-width: 50vw;
+}
+.heading{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.img2{
+    margin: 5% 5% 3% 40%;
+}
+.img3{
+    text-align: center;
+}
+.img3 img{
+    width: 60vw;
+    height: 60vh;
+}
+.myself{
+    background-color: #6E07F3;
+    height: 70vh;
+    color: white;
+    text-align: center;
+   
+
+}
+.myself h2{
+    font-weight: bold;
+    padding-top: 3%;
+    font-size: 2rem;
+}
+.myself h3{
+    width: 40vw;
+    margin: 3% 0% 5% 29%;
+}
+.technology{
+    height:175vh;
+    background-color: white;
+    width: 90vw;
+    margin-left: 4.5%;
+    border: 1px solid white;
+    border-radius: 1%;
+    display: flex;
+    border-bottom: 3px solid rgb(196, 234, 244);
+   
+}
+.frontend{
+    width: 45vw;
+    border-right: 1px solid #f8e6e6;
+    height: 175vh;
+}
+.backend{
+    text-align: center;
+    width: 100vw;
+    border-right: 1px solid #f8e6e6;
+    height: 175vh;
+}
+#img1{
+    width: 15vw;
+    height: 15vh;
+    display: block;
+    margin: 2% 0% 6% 36%;
+}
+#img2{
+    width: 15vw;
+    height: 15vh;
+    display: block;
+    margin: 8% 0% 6% 31%;
+}
+.frontend h3{
+    color: black;
+    width: 20vw;
+}
+.frontend h2{
+    color: blue;
+    width: 45vw;
+}
+.lang{
+    color: black;
+    margin-top: 4%;
+}
+.backend img{
+    width: 25vw;
+    height:35vh;
+    margin-top: 4%;
+}
+.backend h2{
+color:red;    
+margin-top: 7%;
+}
+.backend h3{
+    color: black;
+    margin-left: 6%;
+    
+}
+.blogs-img{
+    border: 2px solid blue;
+    margin-left: 5%;
+    border-radius: 21%;
+}
+.blogs-img:hover{
+    border: 4px solid red;
+}
+.projects-head h1,h3{
+    color: black;
+    padding-top: 2%;
+}
+.prj-img{
+    display: flex;
+    padding-top: 2%;
+}
+.prj-img img{
+    width: 22vw;
+    margin: 4%;
+    height: 22vh;
+    border: 1px solid blue;
+    border-radius: 30%;
+    
+}
+.prj1 {
+    width: 30vw;
+    text-align: center;
+    border: 1px solid rgb(220, 210, 210);
+    margin-left: 2%;
+    height: 75vh;
+}
+.prj1 h4{
+    width: 25vw;
+    margin-left: 12%;
+    color: rgb(99, 14, 14);
+    height: 15vh;
+}
+.prj2{
+    width: 30vw;
+    text-align: center;
+    border: 1px solid rgb(220, 210, 210);
+    margin-left: 2%;
+    height: 75vh;
+}
+.prj3{
+    width: 30vw;
+    text-align: center;
+    border: 1px solid rgb(220, 210, 210);
+    margin-left: 2%;
+    height: 75vh;
+}
+.prj2 h4{
+    width: 25vw;
+    margin-left: 12%;
+    color: rgb(29, 12, 66);
+    height: 15vh;
+}
+.prj3 h4{
+    width: 25vw;
+    margin-left: 12%;
+    color: rgb(254, 159, 159);
+    height: 15vh;
+}
+.buttonss1 button{
+    margin-left: 30%;
+    display: block;
+    margin-top: 7%;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 30%;
+    width: 7vw;
+    height: 7vh;
+    padding: 1%;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+}
+.buttonss2 button{
+    margin-left: 40%;
+    display: block;
+    margin-top: 7%;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 30%;
+    width: 7vw;
+    height: 7vh;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttonss3 button{
+    margin-left: 40%;
+    display: block;
+    margin-top: 7%;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 30%;
+    width: 7vw;
+    height: 7vh;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttonss1 button:hover{
+    background-color: blue;
+    color:white;
+}
+.buttonss2 button:hover{
+    background-color: blue;
+    color:white;
+}
+.buttonss3 button:hover{
+    background-color: blue;
+    color:white;
+}
+.footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    margin-top: 1%;
+
+}
+.logo1{
+    width: 60%;
+    height: 60%;
+  border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 350%;
+
+}
+.logo1:hover{
+    border: 5px solid white;
+}
+.logo2:hover{
+    border: 5px solid white; 
+}
+.logo3:hover{
+    border: 5px solid white; 
+}
+.logos{
+    display: flex;
+    margin-left: 18%;
+
+}
+.logo2{
+    width: 100%;
+    height: 60%;
+    margin-left: 1200%;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.ist{
+    display: inline-block;
+    margin-top: 1.5%;
+}
+.iind{
+    display: inline-block;
+    margin-right: 40%;
+    margin-top: 2%;
+
+}
+.thrd{
+    display: inline-block;
+    margin-right: 40%;
+    margin-top: 2%;
+}
+.logo3{
+    width: 50%;
+    height: 60%;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
